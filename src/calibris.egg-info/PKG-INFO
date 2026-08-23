@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: calibris
+Version: 0.1.0
+Summary: A Gibbs sampler using Gaussian constrained realizations for latent signal inference under structured noise.
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+# Calibris
+
+A Gibbs sampler for inferring a latent signal from noisy observations with
+known correlation structure, using Gaussian constrained realizations (GCR)
+for exact conditional sampling. Implemented in JAX.
+
+## Installation
+(coming soon)
+
+## Usage
+(coming soon)
+
+## Background
+(coming soon)
+
+## License
+MIT
